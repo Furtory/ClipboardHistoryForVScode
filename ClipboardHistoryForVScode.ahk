@@ -194,6 +194,8 @@ Return
 ExitApp
 Return
 
+; 为什么不用OnClipboardChange:文本操作都是用剪贴板实现的 我们只记录快捷键产生的剪贴板内容
+
 ; 监听 Ctrl+C 或 Ctrl+X 事件以保存剪贴板内容
 ~^c::
 ~^x::
